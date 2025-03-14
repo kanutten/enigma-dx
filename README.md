@@ -1,6 +1,6 @@
-# bluefin-dx:LTS
+# bluefin-dx:lts
 
-# Purpose
+## Purpose
 
 This repository is my own custom Universal Blue image, based on Bluefin-dx:LTS
 
