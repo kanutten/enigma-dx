@@ -9,9 +9,8 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
-dnf5 install -y tmux 
-#dnf -y install fuse fuse-libs
+# this installs packages
+dnf -y install tmux fuse fuse-libs
 
 # Use a COPR Example:
 #
