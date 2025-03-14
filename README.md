@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository is my own custom Universal Blue image, based on Bluefin-dx:LTS
+This repository is my own custom Universal Blue image, based on bluefin-dx:lts
 
 ### Rebase
 
