@@ -1,0 +1,9 @@
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Shift><Super>s'
+command='flatpak run --command=flameshot org.flameshot.Flameshot gui'
+name='flameshot'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
+binding='<Shift><Control>s'
+command='flatpak run --command=flameshot org.flameshot.Flameshot gui'
+name='flameshot alt'
