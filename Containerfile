@@ -6,7 +6,7 @@ FROM ghcr.io/ublue-os/bluefin-dx:lts
 
 COPY build.sh /tmp/build.sh
 #COPY system_files/local.d /etc/dconf/db/
-COPY system_files/02-my-keybindings /etc/dconf/db/local.d
+COPY system_files/02-my-keybindings /etc/dconf/db/distro.d
 
 RUN mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \
